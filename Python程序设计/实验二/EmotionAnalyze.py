@@ -91,4 +91,4 @@ for sentence in duanlist:
     p, n = count(wordslist)
     while '！' in wordslist:
         wordslist.remove('！')
-    print('{}  褒义度：{} 贬义度：{}'.format(wordslist, p, n))
+    print('{}\n褒义度：{} 贬义度：{}'.format(sentence, p, n))
