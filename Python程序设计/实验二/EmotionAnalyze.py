@@ -2,7 +2,7 @@ import jieba
 import re
 
 
-def split(sentence):  # 传入句子，返回分词列表wordslist和感叹号出现次数t
+def split(sentence):  # 传入句子，返回分词列表wordslist
     pattern = '。|，|？'
     wordslist = []
     #t = sentence.count("！")
