@@ -59,8 +59,8 @@ def count(wordslist):  # 传入分词列表，返回褒义值p和贬义值n
     n = n*t
     return p, n
 
-path=r"Python程序设计\实验二\\"
-fo = open(path+"Text.txt", "r")
+path="Python程序设计\实验二"
+fo = open(path+r"\Text.txt", "r")
 # print ("文件名为: ", fo.name)
 textlist = fo.readlines()
 duanlist = []
@@ -71,9 +71,9 @@ for duan in textlist:  # 依次读取每行
     # i = i+1
     duanlist.append(duan)
 positive = open(
-    path+r"sentiment.dict.v1.0\tsinghua.positive.gb.txt", "r").readlines()
+    path+r"\sentiment.dict.v1.0\tsinghua.positive.gb.txt", "r").readlines()
 negative = open(
-    path+r"sentiment.dict.v1.0\tsinghua.negative.gb.txt", "r").readlines()
+    path+r"\sentiment.dict.v1.0\tsinghua.negative.gb.txt", "r").readlines()
 polist = []
 nelist = []
 for word in positive:
