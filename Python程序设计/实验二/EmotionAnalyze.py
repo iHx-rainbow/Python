@@ -59,7 +59,7 @@ def count(wordslist):  # 传入分词列表，返回褒义值p和贬义值n
     n = n*t
     return p, n
 
-path="Python程序设计\实验二"
+path=r"Python程序设计\实验二"
 fo = open(path+r"\Text.txt", "r")
 # print ("文件名为: ", fo.name)
 textlist = fo.readlines()

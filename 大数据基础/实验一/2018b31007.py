@@ -89,9 +89,9 @@ def np():
 
 np()
 
-
 def info():
-    food_info = pandas.read_csv("food_info.csv")
+    csv = open(r'大数据基础\data\food_info.csv')
+    food_info = pandas.read_csv(csv)    # read_csv方法不能使用有中文的参数
     k_mean = food_info["Energ_Kcal"].mean()
     k_max = food_info["Energ_Kcal"].max()
     print("平均值是{:.2f}，最大值是{}".format(k_mean, k_max))
