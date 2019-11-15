@@ -4,3 +4,4 @@ a=0
 for n in range(1,m+1):
     a=1/n+a
     print(a)
+    pass
