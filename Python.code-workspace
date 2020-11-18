@@ -6,5 +6,8 @@
 		{
 			"path": "C:\\Users\\Admin\\Desktop\\Courses\\2019 神经网络基础"
 		}
-	]
+	],
+	"settings": {
+		"python.pythonPath": "C:\\IDE\\Anaconda3\\python.exe"
+	}
 }
